@@ -20,7 +20,7 @@
 
 <pre>python3 t-mac-changer.py <options></pre>
 
-# Available Options
+## Available Options
 
 <pre>
 -h, --help              Show this help message and exit
@@ -30,3 +30,19 @@
 --history               History
 --restore               Restore MAC address  
 </pre>
+
+## Usage
+
+<pre>python3 t-mac-changer.py -i <interface> -m <MAC> </pre>
+
+Random MAC address
+
+<pre>python3 t-mac-changer.py -i <interface> --random </pre>
+
+Show MAC address history
+
+<pre>python3 t-mac-changer.py -i <interface> -m <MAC> --history </pre>
+
+Restore MAC address
+
+<pre>python3 t-mac-changer.py -i <interface> --restore </pre>
