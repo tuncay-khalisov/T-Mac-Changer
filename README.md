@@ -35,14 +35,14 @@
 
 <pre>python3 t-mac-changer.py -i interface -m MAC </pre>
 
-Random MAC address
+**Random MAC address**
 
 <pre>python3 t-mac-changer.py -i interface --random </pre>
 
-Show MAC address history
+**Show MAC address history**
 
 <pre>python3 t-mac-changer.py -i interface -m MAC --history </pre>
 
-Restore MAC address
+**Restore MAC address**
 
 <pre>python3 t-mac-changer.py -i interface --restore </pre>
