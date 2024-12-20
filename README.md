@@ -8,14 +8,25 @@
 
 ## Installation
 
-**1.Clone this repo:**
+**1. Clone this repo:**
 
 <pre>git clone https://github.com/tuncay-khalisov/T-Mac-Changer</pre>
 
-**2.Move into the project directory:**
+**2. Move into the project directory:**
 
 <pre>cd T-Mac-Changer</pre>
 
-**3.Run code:**
+**3. Run code:**
 
-<pre>python3 t-mac-changer.py "options"</pre>
+<pre>python3 t-mac-changer.py <options></pre>
+
+# Available Options
+
+<pre>
+-h, --help              Show this help message and exit
+-i, --interface         Interface name
+-m, --mac               Set a MAC address manually
+-r, --random            Set a random MAC address
+--history               History
+--restore               Restore MAC address  
+</pre>
